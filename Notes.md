@@ -77,3 +77,8 @@ git remote add origin https://github.com/lahbibbichr/django-job-board.git
 git push -u origin master
 ################################################
 
+##############
+## Model
+python manage.py makemigrations
+python manage.py migrate
+##############
